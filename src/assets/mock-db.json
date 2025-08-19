@@ -1,0 +1,13 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "guest@test.com", "password": "1234", "role": "guest" },
+    { "id": 2, "name": "Admin", "email": "admin@test.com", "password": "1234", "role": "admin" }
+  ],
+  "rooms": [
+    { "id": 1, "type": "Single", "price": 80, "capacity": 1, "amenities": ["WiFi", "TV"], "image": "room1.jpg" },
+    { "id": 2, "type": "Double", "price": 120, "capacity": 2, "amenities": ["WiFi", "TV", "Mini Bar"], "image": "room2.jpg" }
+  ],
+  "bookings": [
+    { "id": 1, "userId": 1, "roomId": 2, "startDate": "2025-08-21", "endDate": "2025-08-24", "status": "confirmed" }
+  ]
+}
